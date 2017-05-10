@@ -1,0 +1,6 @@
+{
+    "name": "example",
+    "require-dev": {
+        "codeception/codeception": "~2.2"
+    }
+}

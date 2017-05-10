@@ -1,0 +1,4 @@
+- name: Run tests
+  service: test
+  encrypted_dockercfg_path: dockercfg.encrypted
+  command: vendor/bin/codecept run --fail-fast
