@@ -13,7 +13,7 @@ RUN curl -fSL -o /tmp/composer-setup.php https://getcomposer.org/installer \
 # Run Composer
 WORKDIR /var/www/html
 COPY composer.json composer.lock /var/www/html/
-RUN composer install
+RUN composer install --no-ansi
 
 # Install the codebase
 COPY . /var/www/html
