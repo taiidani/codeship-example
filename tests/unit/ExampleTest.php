@@ -16,6 +16,7 @@ class FeatureTest extends Unit
 
     public function testBaz()
     {
+        sleep(5);
         $this->assertTrue(true);
     }
 
@@ -26,6 +27,7 @@ class FeatureTest extends Unit
 
     public function testIpsum()
     {
+        sleep(5);
         $this->assertTrue(true);
     }
 
